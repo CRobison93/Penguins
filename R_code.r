@@ -1,0 +1,77 @@
+install.packages("tidyverse")
+library("tidyverse")
+install.packages("here")
+library("here")
+install.packages()
+install.packages(skimr)
+install.packages("skimr")
+library(skimr)
+library("skimr")
+install.packages("Janitor")
+install.
+install.packages("dplyr")
+library(janitor)
+library(Janitor)
+library("janitor")
+library("Janitor")
+install.packages("janitor")
+library(janitor)
+install.packages("palmerpenguins")
+skin_without_charts()
+skin_without_charts(penguins)
+skim_without_charts(penguins)
+skim_without_charts(palmerpenguins)
+library(palmerpenguins)
+skim_without_charts(penguins)
+glimpse(penguins)
+penguins %>%
+select(species)
+penguins %>%
+select(-species)
+penguins %>%
+select(-species)
+penguins %>%
+rename(island_new=island)
+penuins %>%
+clean_names(penguins)
+penguins %>%
+clean_names(penguins)
+clean_names(penguins)
+Penguins%>% arrange(bill_length_mm)
+penguins%>% arrange(bill_length_mm)
+penguins%>% arrange(-bill_length_mm)
+penguins2 <- penguins%>% arrange(-bill_length_mm)
+view(penguins2)
+penguins %>% geoup_by(island)
+penguins %>% group_by(island)
+penguins %>% group_by(island) %>% drop_na() %>% summarize(mean_bill_length_mm)
+penguins %>% group_by(island) %>% drop_na() %>% summarize(mean_bill_length_mm)
+penguins %>% group_by(island) %>% drop_na() %>% summarize(mean_bill_length_mm = mean(bill_length_mm))
+penguins %>% group_by(island) %>% drop_na() %>% summarize(mean_bill_length_mm = mean(bill_length_mm))
+penguins %>% group_by(island) %>% drop_na() %>% summarize(max_bill_length_mm = max(bill_length_mm))
+penguins %>% group_by(species, island) %>% drop_na() %>% summarize(max_bl = max(bill_length_mm), mean_bl = mean(bill_length_mm))
+penguins %>% filter(species == "Adelie")
+id <- c(1:10)
+view(penguins)
+view(penguins)
+penguins %>%
+mutate(body_mass_kg=body_mass_g/1000)
+penguins %>%
+mutate(body_mass_kg=body_mass_g/1000, flipper_length_m=flipper_length_mm/1000
+mutate(body_mass_kg=body_mass_g/1000, flipper_length_m=flipper_length_mm/1000)
+penguins %>%
+mutate(body_mass_kg=body_mass_g/1000, flipper_length_m=flipper_length_mm/1000)
+penguins %>%
+penguins%>% arrange(bill_length_mm)
+penguins %>% arrange(bill_length_mm)
+penguins %>%drop_na() %>% group_by(species) %>% summarize(max_bl + max(bill_length_mm))
+penguins %>%drop_na() %>% group_by(species) %>% summarize(max_bl = max(bill_length_mm))
+penguins %>%drop_na() %>% group_by(species) %>% max(bill_length_mm)
+penguins %>%drop_na() %>% group_by(species) %>% bill_length_mm
+penguins %>%drop_na() %>% group_by(species) %>% "bill_length_mm"
+penguins %>%drop_na() %>% group_by(species) %>% summarize(max(flipper_length_mm))
+install.packages("ggplot2")
+library(ggplot2)
+data(penguins)
+View(penguins)
+ggplot(data = penguins) + geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
